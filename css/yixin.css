@@ -133,7 +133,7 @@ background-image:url(tab.png);
 	width:1364px;
 	height:621px;
 	background-color:#000000;
-	background-image:url(111.png);
+	background-image:url(img/111.png);
 	background-repeat:no-repeat;
 	margin-left:5px;
 }
@@ -144,7 +144,7 @@ background-image:url(tab.png);
 	width:1364px;
 	height:621px;
 	background-color:#000000;
-	background-image:url(library1.jpg);
+	background-image:url(img/library1.jpg);
 	background-repeat:no-repeat;
 	margin-left:5px;
 }
@@ -155,7 +155,7 @@ background-image:url(tab.png);
 	width:1364px;
 	height:621px;
 	background-color:#000000;
-	background-image:url(Niagara_falls.png);
+	background-image:url(img/Niagara_falls.png);
 	background-repeat:no-repeat;
 	margin-left:5px;
 }
@@ -219,7 +219,7 @@ height:auto;
 
 .contentBox .innerBox
 {
-background-image:url(content_back.png);
+background-image:url(img/content_back.png);
 background-repeat:repeat-x;
 position:relative;
 width:1364px;
