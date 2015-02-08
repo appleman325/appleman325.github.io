@@ -1,0 +1,308 @@
+/* Yixin CSS 
+   Designed by Yixin*/
+
+body {
+	margin: 0;
+	/*margin-left: 50px;*/
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000000;
+	background-color:#87CEEB;
+	background-repeat: repeat-x;  
+}
+*
+{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+#page
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 670px;
+}
+
+nav{
+	position:relative;
+	font-family: "Electrolize",sans-serif;
+	font-size:33px;
+	text-transform:uppercase;
+	float:left;
+	margin-top:90px;
+	margin-left:170px;
+	width:200px;
+	height: 35px;
+    line-height: 80px;
+	text-align:right;
+}
+
+nav a{
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+nav a:hover{
+	background-color:#FFFFFF;
+	text-decoration:none;
+	color:#87CEEB;
+	-webkit-transition:color .2s linear;
+}
+
+.topNaviagationLink
+{
+text-align:center;
+text-transform:uppercase;
+position:relative;
+margin-top:90px;
+font-size:37px;
+margin-left:170px;
+width:200px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#30EF49;
+font-family: "Electrolize",sans-serif;
+}
+
+.topNaviagationLink a
+{
+text-decoration:none;
+color:#000000;
+}
+
+.topNaviagationLink a:hover
+{
+text-align:center;
+border-bottom:none;
+color:#0C61C9;
+display: block;
+width:201px;
+height: 35px;
+line-height: 35px;
+background-image:url(tab.png);
+}
+
+.contentNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:20px;
+margin-left:10px;
+width:200px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#30EF49;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+.contentNaviagationLink a
+{
+text-decoration:none;
+color:#000000;
+}
+
+.contentNaviagationLink a:hover
+{
+text-align:center;
+border-bottom:none;
+color:#0C61C9;
+display: block;
+width:200px;
+height: 35px;
+line-height: 35px;
+background-image:url(tab.png);
+}
+
+#mainPicture{
+	/*top:5px;*/
+	width: 1374px;
+	height: 631px;
+	background-color: #FFFFFF;
+}
+
+#mainPicture .picture1{
+	top:5px;
+	position:relative;
+	width:1364px;
+	height:621px;
+	background-color:#000000;
+	background-image:url(111.png);
+	background-repeat:no-repeat;
+	margin-left:5px;
+}
+
+#mainPicture .picture2{
+	top:5px;
+	position:relative;
+	width:1364px;
+	height:621px;
+	background-color:#000000;
+	background-image:url(library1.jpg);
+	background-repeat:no-repeat;
+	margin-left:5px;
+}
+
+#mainPicture .picture3{
+	top:5px;
+	position:relative;
+	width:1364px;
+	height:621px;
+	background-color:#000000;
+	background-image:url(Niagara_falls.png);
+	background-repeat:no-repeat;
+	margin-left:5px;
+}
+
+#headerTitle
+{
+position:relative;
+float:left;
+top:0px;
+left:50px;
+font-size:65px;
+color:#483D8B;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerTitle a{
+	display: block;
+	text-decoration:none;
+}
+
+#headerSubtext
+{
+position:relative;
+top:30px;
+left:65px;
+font-size:35px;
+color:#A9C8FA;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+#headerBox
+{
+/*top:30px;*/
+background-color: #FFFFFF;
+width:auto;
+height:85px;
+/*margin-top:10px;*/
+margin-left:0px;	
+}
+
+#headerBox .imageBox
+{
+	position:relative;
+	float:left;
+	left:30px;
+	width:280px;
+	height:290px;
+	top:10px;
+	background-image:url(1.png);
+	background-repeat:no-repeat;
+	margin-left:10px;
+}
+
+.contentBox
+{
+background-color:#FFFFFF;
+width:1374px;
+height:auto;
+/*margin-top:10px;*/
+}
+
+.contentBox .innerBox
+{
+background-image:url(content_back.png);
+background-repeat:repeat-x;
+position:relative;
+width:1364px;
+height:auto;
+margin-left:5px;
+top:5px;
+/*margin-top:10px;*/
+padding-bottom:35px;
+}
+
+.imgTitle
+{
+position:relative;
+color:white;
+top:500px;
+left:1050px;
+font-size:25px;
+margin-bottom:0px;
+padding-top:0px;
+margin-left:15px;
+margin-top:15px;
+}
+
+.contentTitle
+{
+position:relative;
+color:black;
+font-size:37px;
+margin-bottom:0px;
+padding-top:5px;
+margin-left:15px;
+margin-top:15px;
+}
+
+.contentText
+{
+color:black;
+font-size:25px;
+font-family:"Book Antiqua";
+line-height:34px;
+margin-left:13px;
+margin-right:13px;
+}
+
+#footer {
+
+width: 670px;
+height:16px;
+background: url(footer.png) no-repeat;
+text-align:center;
+font-size:9px;
+font-family:Arial, Helvetica, sans-serif;
+color:#386172;
+padding-top:5px;
+}
+
+/*p::first-letter{
+	color: navy;
+	font-size: xx-large;
+}*/
+
+.img{
+	margin: 5px;
+	padding: 5px;
+	/*border: 1px solid #ffffff;*/
+	height: auto;
+	weight: auto;
+	float: left;
+}
+
+.img img{
+	display: inline;
+	margin: 5px;
+	border: 1px solid #000000;
+}
+
+.img a: hover img{
+	border: 1px solid #0C61C9;
+}
+
+.desc{
+	text-align: center;
+	font-weight: normal;
+	width: 200px;
+	margin: 5px;
+}
