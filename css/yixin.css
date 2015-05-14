@@ -10,114 +10,56 @@ body {
 	font-size: 13px;
 	color: #000000;
 	background-color:#87CEEB;
-	background-repeat: repeat-x;  
+	/*background-repeat: repeat-x;*/	  
 }
 *
 {
 	margin: 0 auto 0 auto;
 	text-align:left;
 }
-#page
-{
-  display: block; 
-  height:auto;
-  position: relative; 
-  overflow: hidden; 
-  width: 670px;
+
+ul{
+	color:#FFFFFF;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
-nav{
+li{
+	display: inline;
+	text-align: center;
+}
+
+.NavigationLink{
+	text-align:center;
 	position:relative;
 	font-family: "Electrolize",sans-serif;
-	font-size:33px;
+	font-size:40px;
 	text-transform:uppercase;
-	float:left;
-	margin-top:90px;
-	margin-left:170px;
-	width:200px;
-	height: 35px;
-    line-height: 80px;
-	text-align:right;
+	/*float:left;
+	margin-top:20px;
+	width:20px;
+	height: 20px;
+    /*line-height: 10px;*/
+   line-height:80px;
+    margin-left:0px;
 }
 
-nav a{
-	display:block;
+.NavigationLink a{
 	color:#FFFFFF;
 	text-decoration:none;
+	line-height:normal;
+	padding: 20px;
 }
 
-nav a:hover{
-	background-color:#FFFFFF;
+.NavigationLink a:hover{
+	text-align:center;
 	text-decoration:none;
+	background-color: #FFFFFF;
+	line-height:normal;
 	color:#87CEEB;
 	-webkit-transition:color .2s linear;
-}
-
-.topNaviagationLink
-{
-text-align:center;
-text-transform:uppercase;
-position:relative;
-margin-top:90px;
-font-size:37px;
-margin-left:170px;
-width:200px;
-height: 35px;
-line-height: 35px;
-float:left;
-color:#30EF49;
-font-family: "Electrolize",sans-serif;
-}
-
-.topNaviagationLink a
-{
-text-decoration:none;
-color:#000000;
-}
-
-.topNaviagationLink a:hover
-{
-text-align:center;
-border-bottom:none;
-color:#0C61C9;
-display: block;
-width:201px;
-height: 35px;
-line-height: 35px;
-background-image:url(tab.png);
-}
-
-.contentNaviagationLink
-{
-text-align:center;
-position:relative;
-margin-top:30px;
-font-size:20px;
-margin-left:10px;
-width:200px;
-height: 35px;
-line-height: 35px;
-float:left;
-color:#30EF49;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-}
-
-.contentNaviagationLink a
-{
-text-decoration:none;
-color:#000000;
-}
-
-.contentNaviagationLink a:hover
-{
-text-align:center;
-border-bottom:none;
-color:#0C61C9;
-display: block;
-width:200px;
-height: 35px;
-line-height: 35px;
-background-image:url(tab.png);
 }
 
 #mainPicture{
@@ -133,7 +75,7 @@ background-image:url(tab.png);
 	width:1364px;
 	height:621px;
 	background-color:#000000;
-	background-image:url(../img/111.png);
+	background-image:url(img/111.png);
 	background-repeat:no-repeat;
 	margin-left:5px;
 }
@@ -144,7 +86,7 @@ background-image:url(tab.png);
 	width:1364px;
 	height:621px;
 	background-color:#000000;
-	background-image:url(../img/library1.jpg);
+	background-image:url(img/library1.jpg);
 	background-repeat:no-repeat;
 	margin-left:5px;
 }
@@ -155,7 +97,18 @@ background-image:url(tab.png);
 	width:1364px;
 	height:621px;
 	background-color:#000000;
-	background-image:url(../img/Niagara_falls.png);
+	background-image:url(img/Niagara_falls.png);
+	background-repeat:no-repeat;
+	margin-left:5px;
+}
+
+#mainPicture .picture4{
+	top:5px;
+	position:relative;
+	width:1364px;
+	height:621px;
+	background-color:#000000;
+	background-image:url(img/dog.png);
 	background-repeat:no-repeat;
 	margin-left:5px;
 }
@@ -196,19 +149,6 @@ height:85px;
 margin-left:0px;	
 }
 
-#headerBox .imageBox
-{
-	position:relative;
-	float:left;
-	left:30px;
-	width:280px;
-	height:290px;
-	top:10px;
-	background-image:url(1.png);
-	background-repeat:no-repeat;
-	margin-left:10px;
-}
-
 .contentBox
 {
 background-color:#FFFFFF;
@@ -222,7 +162,7 @@ height:auto;
 background-image:url(img/content_back.png);
 background-repeat:repeat-x;
 position:relative;
-width:1364px;
+width:1362px;
 height:auto;
 margin-left:5px;
 top:5px;
@@ -236,11 +176,12 @@ position:relative;
 color:white;
 top:500px;
 left:1050px;
+/*right:-800px;*/
 font-size:25px;
-margin-bottom:0px;
+/*margin-bottom:0px;
 padding-top:0px;
-margin-left:15px;
-margin-top:15px;
+/*margin-left:15px;
+margin-top:15px;*/
 }
 
 .contentTitle
@@ -249,6 +190,8 @@ position:relative;
 color:black;
 font-size:37px;
 margin-bottom:0px;
+font-family:"Courier New"
+font-style: italic;
 padding-top:5px;
 margin-left:15px;
 margin-top:15px;
@@ -268,7 +211,7 @@ margin-right:13px;
 
 width: 670px;
 height:16px;
-background: url(footer.png) no-repeat;
+background: url(img/footer.png) no-repeat;
 text-align:center;
 font-size:9px;
 font-family:Arial, Helvetica, sans-serif;
@@ -305,4 +248,8 @@ padding-top:5px;
 	font-weight: normal;
 	width: 200px;
 	margin: 5px;
+}
+
+.video{
+	text-align:center;
 }
