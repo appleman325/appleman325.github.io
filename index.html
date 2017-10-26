@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eason_Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid Sans">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src='js/jquery.scrollto.js'></script>
+    </head>
+    <body>
+        <section class="navigation">
+            <div class="nav-container">
+              <div class="brand">
+                <a href="index.html"><strong>Eason</strong></a>
+              </div>
+              <nav>
+                  <div class="nav-mobile">
+                      <a id="nav-toggle" href="#!"><span></span></a>
+                  </div>
+                  <ul class="nav-list">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#about-section">About</a></li> 
+                      <li><a href="#project-section">Project</a></li>
+                      <li><a href="#contact-section">Contact</a></li>
+                  </ul>
+              </nav>
+            </div>
+        </section>
+
+        <header id="intro-section" class="container-fluid text-center">
+            <div class="intro-box">
+                <div class="intro">
+                    <img class="smaller-image" src="https://lh3.googleusercontent.com/-uD4M-grO-9Q/WdbXoSNdNAI/AAAAAAAAAbY/oEnahvIBd1kJWW3YEtTEu7V8NHXBIv2aACEwYBhgL/w140-h140-p/IMG_4746.JPG" alt="Profile Photo">
+                    <h2>Eason Li 
+                        <span>Web Developer</span>
+                    </h2>
+                </div>
+                <div class="social">
+                    <a class="twitter" href="https://twitter.com/li_yixin" target="_blank">Twitter</a>
+                    <a class="facebook" href="https://www.facebook.com/profile.php?id=100004322700831" target="_blank">Facebook</a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/yixin-li-0742a691/" target="_blank">LinkedIn</a>
+                    <a class="github" href="https://github.com/appleman325" target="_blank">GitHub</a>
+                    <a class="email" href="#contact-section">email</a>
+                </div>
+            </div>
+        </header>
+
+        <div id="about-section">
+            <div class="about-wrapper">
+                <h1>Hi, my name is Eason and I'm a freelance front end web developer from Hamilton, Canada.</h1>
+                <div class="collapse container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="img-center">
+                                <img class="about-more-img img-responsive" src="img/snow.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="about-more-intro">
+                                <h3>Thank you for visiting!</h3>
+                                <h3>I lived in Beijing, China for 23 years before I moved to St. John's, Canada to pursue my Computer Engineering degree. I got interested in web development when I was in university. I was fascinated with my professor's personal blog and decided to create one by myself. That is the start of my web developement story.</h3>
+                                <h3>I had a couple of years experience as an IT System Analyst in <a href="https://www.customeyes.ca/meditiligence.com/" target="_blank">MedITILigence Inc.</a>, then I decided to jump into front end development. My main skills in this area are HTML, CSS, JS, Bootstrap and CMS like WordPress and Drupal. I have also some experience with Angular and MySQL.</h3>
+                                <h3>When I not online, I probably on my way to the fitness room or taking photos on streets. Feel free to check some of my photos on <a href="https://www.flickr.com/photos/147886438@N02/" target="_blank"><i>flickr</i></a> and <a href="https://www.instagram.com/eason8925/?hl=en" target="_blank"><i>instagram</i></a>.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonwrapper">
+                    <a id="about-button" class="button" href="#">More About Me</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="skill-section">
+            <div class="container-fluid">
+                <h1>Skills</h1>
+                <div class="skill-wrapper">
+                    <h2 class="skill-title">Front end</h2>
+                    <ul class="skills-bar-container">
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>HTML</h3>
+                                <span class="percent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="85">
+                                <span class="progressbar"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>CSS / SASS</h3>
+                                <span class="percent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="80">
+                                <span class="progressbar"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>JavaScript / jQuery</h3>
+                                <span class="percent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="60">
+                                <span class="progressbar"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>Bootstrap</h3>
+                                <span class="percent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="70">
+                                <span class="progressbar"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="other-skills-wrapper">
+                    <div class="other-wrapper">
+                        <h2 class="other-title">Others</h2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="img/skill/php-icon.png" class="other-icons" alt="php">
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="img/skill/mysql-icon.png" alt="mysql" class="other-icons">
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="img/skill/wordpress-logo-notext-rgb.png" alt="wordpress" class="other-icons">
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="img/skill/SQLServer-logo.png" alt="mssql" class="other-icons">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="img/skill/net-framework.png" alt="net_framework" class="other-icons">
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="img/skill/angular.jpg" alt="angular" class="other-icons">
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="img/skill/dj-neg2.sh-600x600.png" alt="django" class="other-icons">
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="img/skill/drupal.png" alt="drupal" class="other-icons">
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="project-section">
+            <div class="container-fluid">
+                <h1>Personal Projects</h1>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="col-centered">
+                            <a href="https://codepen.io/appleman233/full/NaWZqw/" target="_blank">
+                                <img class="project-img img-responsive center-block" src="img/project/wikipedia-viewer.jpg" alt="wikipedia-viewer">
+                                <div class="overlay">
+                                    <div class="text">View Project</div>
+                                </div>
+                            </a>
+                            <div class="caption">
+                                <p>This is a small web application which users can search Wikipedia entries and see related results. This application was developed by Wikipedia's API.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-centered">
+                            <a href="https://codepen.io/appleman233/full/EwKxPw/" target="_blank">
+                                <img class="project-img img-responsive center-block" src="img/project/twitch.jpg" alt="twitch-streamers">
+                                <div class="overlay">
+                                    <div class="text">View Project</div>
+                                </div>
+                            </a>
+                            <div class="caption">
+                                <p>The Twitch TV app was developed by Twitchtv JSON API. Users can view specific channels on it as well as checking channel status.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-centered">
+                            <a href="https://codepen.io/appleman233/full/dzBrXV/" target="_blank">
+                                <img class="project-img img-responsive center-block" src="img/project/random-quotes-rewritter.jpg" alt="random-quotes=rewritter">
+                                <div class="overlay">
+                                    <div class="text">View Project</div>
+                                </div>
+                            </a>
+                            <div class="caption">
+                                <p>Random Confucius quotes will be generated by clicking the button. This simple web application was developed by pure HTML, CSS and JavaScript.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="contact-section">
+            <div class="content-box">
+                <h3 class="contact-title">Get in Touch</h3>
+                <p class="contact">Feel free to send me a message even just say hello. I would love to hear from you.</p>
+                <div class="collapse">
+                    <p>yixin0325 at gmail dot com</p>
+                </div>
+                <a id="contact-button" class="contact-button" href="#">Contact Me</a>
+            </div>
+        </div>
+        
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
