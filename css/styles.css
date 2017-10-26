@@ -377,6 +377,7 @@ header {
   .brand {
     font-size: 40px; }
   header {
+    background-attachment: scroll;
     padding-top: 0; }
     header .intro {
       padding-top: 120px !important; }
@@ -424,6 +425,7 @@ header {
       width: 100px;
       height: 100px; }
   #contact-section {
+    background-attachment: scroll;
     height: 100% !important;
     position: relative; }
     #contact-section .content-box {

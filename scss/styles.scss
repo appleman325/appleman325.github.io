@@ -503,6 +503,7 @@ header {
     }
     
     header {
+        background-attachment: scroll;
         padding-top: 0;
         .intro {
             //padding: 50px !important;
@@ -592,6 +593,7 @@ header {
     }
     
     #contact-section {
+        background-attachment: scroll;
 //        padding: 20px !important;
         height: 100% !important;
         position: relative;
