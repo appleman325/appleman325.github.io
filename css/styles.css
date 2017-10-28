@@ -166,7 +166,7 @@ header {
   height: auto; }
   #about-section .about-wrapper {
     font-family: Droid Sans; }
-    #about-section .about-wrapper h1 {
+    #about-section .about-wrapper .main-intro {
       text-align: center;
       font-family: inherit;
       font-size: 4em;
@@ -394,11 +394,11 @@ header {
     padding-right: 20px !important;
     padding-top: 20px !important;
     padding-bottom: 40px !important; }
-    #about-section .about h1 {
+    #about-section .about-wrapper .main-intro {
       font-size: 2em !important; }
-    #about-section .about .collapse h3 {
+    #about-section .about-wrapper .collapse h3 {
       font-size: 1.6em !important; }
-    #about-section .about .button {
+    #about-section .about-wrapper .button {
       font-size: 1.5em !important;
       padding: 10px !important; }
   #project-section {
