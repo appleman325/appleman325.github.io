@@ -142,7 +142,7 @@ header {
             padding-top: 200px;
             .smaller-image {
                 width: 180px;
-                border-radius: 50%;  
+                border-radius: 50%;
                 border-color: white;
                 border-width: 2px;
                 border-style: solid;
@@ -181,7 +181,7 @@ header {
                 text-align: center;
                 border: 0;
                 &.twitter {
-                    background-image: url(../img/social/twitter.png);  
+                    background-image: url(../img/social/twitter.png);
                 }
                 &.facebook {
                     background-image: url(../img/social/facebook.png);
@@ -200,7 +200,7 @@ header {
                 }
             }
         }
-    }    
+    }
 }
 
 #about-section {
@@ -217,7 +217,7 @@ header {
             text-align: center;
             font-family: 'Courgette', cursive;
             font-size: 4em;
-            line-height: 1.2em; 
+            line-height: 1.2em;
             color: $about-color;
             padding-bottom: 25px;
         }
@@ -247,7 +247,7 @@ header {
                             a {
                                 text-decoration: none;
                             }
-                        }        
+                        }
                     }
                 }
             }
@@ -269,7 +269,7 @@ header {
                     transition: all .35s ease;
                     border-radius: 30px;
                     background-color: $about-color;
-                    color: $about-bg;           
+                    color: $about-bg;
                 }
             }
         }
@@ -350,7 +350,7 @@ header {
                             padding: 15px;
                             width: 150px;
                             height: 150px;
-                        }    
+                        }
                     }
                 }
             }
@@ -382,7 +382,7 @@ header {
                             width: 400px;
                             height: auto;
 //                            transition: .5s ease;
-                            backface-visibility: hidden; 
+                            backface-visibility: hidden;
                             border-radius: 5%;
                         }
                         .overlay {
@@ -414,7 +414,7 @@ header {
                             font-size: 1.5em;
                         }
                     }
-                }  
+                }
             }
         }
     }
@@ -465,7 +465,7 @@ header {
                 -webkit-transition: all .35s ease;
                 transition: all .35s ease;
                 border-radius: 30px;
-            }    
+            }
         }
     }
 
@@ -479,9 +479,9 @@ header {
 **********************/
 @media only screen and (max-width: $breakpoint) {
   .nav-mobile{
-    display: block;  
+    display: block;
   }
-  
+
   nav {
     width: 100%;
     padding: $nav-height 0 15px;
@@ -500,11 +500,11 @@ header {
       }
     }
   }
-    
+
     .brand {
         font-size: 40px;
     }
-    
+
     header {
         background-attachment: scroll;
         padding-top: 0;
@@ -524,7 +524,7 @@ header {
             }
         }
     }
-    
+
     #about-section {
         padding-left: 20px !important;
         padding-right: 20px !important;
@@ -535,9 +535,9 @@ header {
                 font-size: 2em !important;
             }
             .collapse {
-//                font-size: 1.6em !important; 
+//                font-size: 1.6em !important;
                 h3 {
-                    font-size: 1.6em !important;    
+                    font-size: 1.6em !important;
                 }
             }
             .button {
@@ -546,7 +546,7 @@ header {
             }
         }
     }
-    
+
     #project-section {
         padding-top: 20px !important;
         .container-fluid {
@@ -555,7 +555,7 @@ header {
                 padding-bottom: 10px;
             }
             .row {
-                padding: 0 !important; 
+                padding: 0 !important;
                 .col-sm-4 {
 //                    .col-centered {
                         a {
@@ -580,13 +580,13 @@ header {
 //                                font-size: 1.3em !important;
 //                                line-height: 1.2em;
 //                            }
-                        }    
-//                    }    
+                        }
+//                    }
                 }
             }
         }
     }
-    
+
     #skill-section {
         padding-left: 0;
         padding-right: 0;
@@ -595,7 +595,7 @@ header {
             height: 100px;
         }
     }
-    
+
     #contact-section {
         background-attachment: scroll;
 //        padding: 20px !important;
@@ -617,10 +617,10 @@ header {
             .contact-botton {
                 font-size: 1em !important;
 //                padding: 10px !important;
-            }    
+            }
         }
     }
-    
+
 }
 
 @media screen and (min-width: $breakpoint+1px) {
@@ -628,5 +628,3 @@ header {
     display: block !important;
   }
 }
-
-
